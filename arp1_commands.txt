@@ -1,0 +1,3 @@
+table_add MyIngress.arp_forward MyIngress.arp_forward2 10.0.1.1 => 1
+table_add MyIngress.arp_forward MyIngress.arp_forward2 10.0.2.2 => 2
+table_add MyIngress.arp_forward MyIngress.arp_forward2 10.0.3.3 => 3
