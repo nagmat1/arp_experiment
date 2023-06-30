@@ -1,0 +1,8 @@
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.1.1 => 1 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.2.2 => 2 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.3.3 => 3
+table_add MyIngress.arp_forward MyIngress.arp_forward_action 10.0.1.1 => 1
+table_add MyIngress.arp_forward MyIngress.arp_forward_action 10.0.2.2 => 2
+table_add MyIngress.arp_forward MyIngress.arp_forward_action 10.0.3.3 => 3
+table_add MyIngress.arp_mod MyIngress.arp_mod_action 12:b9:0f:87:ff:f5 => 12:61:53:cb:fc:78
+table_add MyIngress.arp_mod MyIngress.arp_mod_action 06:ab:9b:2d:51:ab => 12:95:19:40:e9:25 
