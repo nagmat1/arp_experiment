@@ -21,3 +21,9 @@ simple_switch --log-console --interface 2@ens7 --interface 1@ens8 --interface 3@
 ```
 simple_switch --log-console --interface 3@ens7 --interface 2@ens8 --interface 1@ens9 arp_pl.json
 ```
+
+# Load tables onto data plane
+
+```
+./tools/behavioral-model/tools/runtime_CLI.py < s1_commands.txt
+```
